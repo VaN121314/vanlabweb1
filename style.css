@@ -1,0 +1,299 @@
+
+body {
+  font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+  font-size: 16pt; /* Размер основного шрифта в пунктах  */
+  background: url(akv.jpg);
+  background-size: cover;
+  background-size: 100%;
+  /*color: #a52a2a; /* Цвет основного текста */ 
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+h1 {
+  margin-top: 3%;
+  color: #a52a2a; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+p {
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 20px; /* Отступ справа в пикселах */
+  border-left: 3px solid #808080; /* Параметры линии слева */
+  border-bottom: 3px solid #808080; /* Параметры линии снизу */
+  padding-left: 10px; /* Отступ от линии слева до текста  */
+  padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+  padding-right: 10px;
+  border-right: 3px solid #808080;
+  border-top: 3px solid #808080;
+  padding-top: 10px;
+}
+.F1 {
+FLOAT: LEFT;
+padding-bottom: 15px; /* Отступ от линии снизу до текста  */
+padding-right: 15px;
+margin-left: 60px;
+WIDTH: 700;
+HEIGHT: 400;
+HSPACE: 30;
+VSPACE: 10;
+BORDER: 5;
+}
+.F2 {
+FLOAT: LEFT;
+padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+padding-right: 10px;
+margin-left: 60px;
+WIDTH: 450;
+HEIGHT: 600;
+HSPACE: 30;
+VSPACE: 10;
+BORDER: 5;
+}
+
+
+.IK body {
+COLOR: #000000;/* Цвет основного текста */
+background:100%;
+background-color:#FFD700;
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 16pt; /* Размер основного шрифта в пунктах  */
+<script src="Zapret.js"></script>
+}
+.IK H1 {
+  margin-top: 40pt;
+  color: #000000; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+.IK p {
+  font-family: Franklin Gothic; /* Семейство шрифтов */
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 60px; /* Отступ справа в пикселах */
+  border-left: 3px solid #808080; /* Параметры линии слева */
+  border-bottom: 3px solid #808080; /* Параметры линии снизу */
+  padding-left: 20px; /* Отступ от линии слева до текста  */
+  padding-bottom: 20px; /* Отступ от линии снизу до текста  */
+  padding-right: 20px;*/
+  border-right: 3px solid #808080;
+  border-top: 3px solid #808080;
+  padding-top: 20px;
+}
+
+
+.Ult body {
+COLOR: #FFFFFF;/* Цвет основного текста */
+background:100%;
+background-color: #0d407f;
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 16pt; /* Размер основного шрифта в пунктах  */
+/*background: url(akv.jpg);
+background-size: cover;
+background-size: 100%;*/
+}
+.Ult H1 {
+  margin-top: 40pt;
+  color: #FFFFFF; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+.Ult p {
+  font-family: Franklin Gothic; /* Семейство шрифтов */
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 60px; /* Отступ справа в пикселах */
+  border-left: 3px solid #a47552; /* Параметры линии слева */
+  border-bottom: 3px solid #a47552; /* Параметры линии снизу */
+  padding-left: 20px; /* Отступ от линии слева до текста  */
+  padding-bottom: 20px; /* Отступ от линии снизу до текста  */
+  padding-right: 20px;
+  border-right: 3px solid #a47552;
+  border-top: 3px solid #a47552;
+  padding-top: 20px
+}
+
+
+.DA body {
+COLOR: #FFFFFF;/* Цвет основного текста */
+background:100%;
+background-color: #013220;
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 16pt; /* Размер основного шрифта в пунктах  */
+/*background: url(akv.jpg);
+background-size: cover;
+background-size: 100%;*/
+}
+.DA H1 {
+  margin-top: 40pt;
+  color: #FFFFFF; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+.DA p {
+  font-family: Franklin Gothic; /* Семейство шрифтов */
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 60px; /* Отступ справа в пикселах */
+  border-left: 3px solid #52b244; /* Параметры линии слева */
+  border-bottom: 3px solid #52b244; /* Параметры линии снизу */
+  padding-left: 20px; /* Отступ от линии слева до текста  */
+  padding-bottom: 20px; /* Отступ от линии снизу до текста  */
+  padding-right: 20px;
+  border-right: 3px solid #52b244;
+  border-top: 3px solid #52b244;
+  padding-top: 20px
+}
+
+
+.Sal body {
+COLOR: #FFD700;/* Цвет основного текста */
+background:100%;
+background-color: #006400;
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 16pt; /* Размер основного шрифта в пунктах  */
+/*background: url(akv.jpg);
+background-size: cover;
+background-size: 100%;*/
+}
+.Sal H1 {
+  margin-top: 40pt;
+  color: #FFD700; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+.Sal p {
+  font-family: Franklin Gothic; /* Семейство шрифтов */
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 60px; /* Отступ справа в пикселах */
+  border-left: 3px solid #9792aa; /* Параметры линии слева */
+  border-bottom: 3px solid #9792aa; /* Параметры линии снизу */
+  padding-left: 20px; /* Отступ от линии слева до текста  */
+  padding-bottom: 20px; /* Отступ от линии снизу до текста  */
+  padding-right: 20px;
+  border-right: 3px solid #9792aa;
+  border-top: 3px solid #9792aa;
+  padding-top: 20px
+}
+
+
+.KV body {
+COLOR: #FDB813;/* Цвет основного текста */
+background:100%;
+background-color: #808080;/*#808080  #87ceeb*/
+font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
+font-size: 16pt; /* Размер основного шрифта в пунктах  */
+/*background: url(akv.jpg);
+background-size: cover;
+background-size: 100%;*/
+}
+.KV H1 {
+  margin-top: 40pt;
+  color: #FDB813; /* Цвет заголовка a52a2a*/
+  font-size: 50pt; /* Размер шрифта в пунктах */
+  font-family: Georgia, Times, serif; /* Семейство шрифтов */
+  font-weight: normal; /* Нормальное начертание текста  */
+}
+.KV p {
+  font-family: Franklin Gothic; /* Семейство шрифтов */
+  text-align: justify;
+  margin-left: 60px; /* Отступ слева в пикселах */
+  margin-right: 60px; /* Отступ справа в пикселах */
+  border-left: 3px solid #FFFFFF; /* Параметры линии слева */
+  border-bottom: 3px solid #FFFFFF; /* Параметры линии снизу */
+  padding-left: 20px; /* Отступ от линии слева до текста  */
+  padding-bottom: 20px; /* Отступ от линии снизу до текста  */
+  padding-right: 20px;
+  border-right: 3px solid #FFFFFF;
+  border-top: 3px solid #FFFFFF;
+  padding-top: 20px
+}
+
+.topbar {
+    background-color: #666;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left:0;
+    right:0;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 60; /*убираем левый отступ, равный 60px*/
+}
+.topbar a {
+text-decoration: none; /*убираем подчеркивание текста ссылок*/
+background-color: #949494;
+color: #fff;
+padding: 5px;
+text-decoration: none;
+font-weight: bold;
+border-left: 5px solid #33ADFF;
+display: block;
+}
+.topbar li {
+display: inline-block;
+float: left;
+border-left: 5px solid #666;
+border-bottom: 5px solid #666;
+border-top: 5px solid #666;
+border-right: 5px solid #666;
+}
+
+
+.navbar {
+    background-color: #666;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    width: 100%;
+}
+.navbar a {
+text-decoration: none; /*убираем подчеркивание текста ссылок*/
+background-color: #949494;
+color: #fff;
+padding: 5px;
+text-decoration: none;
+font-weight: bold;
+border-left: 5px solid #33ADFF;
+display: block;
+}
+.navbar li {
+display: inline-block;
+float: left;
+border-left: 5px solid #666;
+border-bottom: 5px solid #666;
+border-top: 5px solid #666;
+border-right: 5px solid #666;
+}
+
+.blok-center {
+background: #949494;
+position: absolute; /* Абсолютное позиционирование */
+width: 600px; /* Ширина блока */
+height: 350px; /* Высота блока */
+margin: auto; /* Отступ от блока */
+top: 0; /* Положение блока от верхнего края */
+bottom: 0; /* Положение блока от нижнего края */
+left: 0; /* Положение блока от левого края */
+right: 0; /* Положение блока от правого края */
+background: #949494; /* Цвет фона блока */
+border: 1px solid #949494; /* Рамка блока */
+padding: 10px; /* Отступ внутри блока */
+overflow: auto; /* Полоса прокрутки */
+}
+
+.blok-center fieldset {
+background: #949494;
+}

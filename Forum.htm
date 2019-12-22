@@ -1,0 +1,67 @@
+<HTML>
+<link rel="stylesheet" href="style.css">
+<HEAD>
+<TITLE>Форум</TITLE>
+</HEAD>
+<BODY>
+
+<CENTER>
+<H1>Форум</H1>
+</CENTER>
+
+<ul class="topbar">
+<li><A HREF=Main.htm>Главная</A></li>
+<li><A HREF=Ultramarine.htm>Ультрамарины</A></li>
+<li><A HREF=ImpK.htm>Имперские Кулаки</A></li>
+<li><A HREF=KV.htm>Космические Волки</A></li>
+<li><A HREF=Salamandri.htm>Саламандры</A></li>
+<li><A HREF=DA.htm>Тёмные Ангелы</A></li>
+<li><A HREF=Forum.htm>Форум</A></li>
+</ul>
+
+<script src="Zapret.js"></script>
+<script src="Dojt.js"></script>
+
+<script language="javascript">
+function a()
+{
+alert(new Date());
+return false
+}
+
+function login(mail, pas)
+{
+try
+{
+var request = new XMLHttpRequest;
+request.open('GET', '/Uzer/'+ mail +'.txt', true);
+if (request.responseText == pas)
+{
+alert('Все норм');
+request.close();
+return true;
+}
+request.close();
+return false;
+}
+catch(e)
+{
+alert('Почта не существует');
+return false;
+}
+}
+</script>
+
+<div class="blok-center">
+<form>
+		<legend>Пожалуйста, представьтесь</legend>
+		<p>Электронная почта*<br />
+		<input type="text" value="" id="mail">
+		<p>Пароль*<br />
+		<input type="text" value="" id="password">
+		<p><input id="submit" value="Отправить" type="submit" OnClick="login(document.getElementById('mail').value, document.getElementById('password').value)"/></p>
+</form>
+</div>
+
+</BODY>
+</HTML>

@@ -1,0 +1,102 @@
+<div class="navbar">
+<CENTER>
+
+<script language="JavaScript">
+function greeting()
+{
+ var today = new Date();
+ var hrs = today.getHours();
+ document.writeln("<CENTER>");
+document.write("<FONT COLOR=\"white\">");
+ document.write("Вы вошли сюда ");
+ dayStr = today.toLocaleString();
+ document.write(dayStr);
+document.write("</FONT>");
+ document.writeln("</CENTER>");
+}
+function montharr(m0, m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11)
+{
+ this[0] = m0;
+ this[1] = m1;
+ this[2] = m2;
+ this[3] = m3;
+ this[4] = m4;
+ this[5] = m5;
+ this[6] = m6;
+ this[7] = m7;
+ this[8] = m8;
+ this[9] = m9;
+ this[10] = m10;
+ this[11] = m11;
+}
+function calendar()
+{
+ var monthNames = "ЯнвФевМртАпрМайИюнИюлАвгСенОктНояДек";
+ var today = new Date();
+ var thisDay;
+ var monthDays = new montharr(31, 28, 31, 30, 31, 30, 31, 31, 30,
+ 31, 30, 31);
+ year = today.getYear() + 1900;
+ thisDay = today.getDate();
+ if (((year % 4 == 0) && (year % 100 != 0)) || (year % 400 == 0))
+ monthDays[1] = 29;
+ nDays = monthDays[today.getMonth()];
+ firstDay = today;
+ firstDay.setDate(1);
+ testMe = firstDay.getDate();
+ if (testMe == 2)
+ firstDay.setDate(0);
+ startDay = firstDay.getDay();
+ document.writeln("<CENTER>");
+ document.write("<TABLE BORDER>");
+ document.write("<TR><TH COLSPAN=7>");
+document.write("<FONT COLOR=\"white\">");
+ document.write(monthNames.substring(today.getMonth() * 3,
+ (today.getMonth() + 1) * 3));
+ document.write(". ");
+ document.write(year);
+
+document.write("<TR><TH><FONT COLOR=\"white\">Вск<TH><FONT COLOR=\"white\">Пон<TH><FONT COLOR=\"white\">Втр<TH><FONT COLOR=\"white\">Срд<TH><FONT COLOR=\"white\">Чтв<TH><FONT COLOR=\"white\">Птн<TH><FONT COLOR=\"white\">Сбт");
+document.write("</FONT>");
+ document.write("<TR>");
+ column = 0;
+ for (i=0; i<startDay; i++)
+ {
+ document.write("<TD>");
+ 
+ column++;
+ }
+ for (i=1; i<=nDays; i++)
+ {
+ document.write("<TD>");
+ document.write("<FONT COLOR=\"white\">");
+ if (i == thisDay)
+ {
+ document.write("</FONT>");
+ document.write("<FONT COLOR=\"blue\">");
+ }
+ document.write(i);
+ if (i == thisDay)
+ {
+ document.write("</FONT>");
+ document.write("<FONT COLOR=\"white\">");
+ }
+ column++;
+ if (column == 7)
+ {
+ document.write("<TR>");
+ column = 0;
+ }
+ }
+ document.write("</FONT>")
+ document.write("</TABLE>");
+ document.writeln("</CENTER>");
+}
+greeting();
+document.write("<br>");
+calendar();
+document.write("");
+</script>
+
+</CENTER>
+</div>

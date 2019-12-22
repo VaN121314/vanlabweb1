@@ -1,0 +1,18 @@
+<li>
+<FORM>
+<SELECT
+onChange="document.bgColor=this.options[this.selectedIndex].value" >
+<OPTION VALUE="red">красный
+<OPTION VALUE="2E8B57">морской волны
+<OPTION VALUE="87CEEB">голубой
+<OPTION VALUE="brown">коричневый
+<OPTION VALUE="yellow">желтый
+<OPTION VALUE="blue">синий
+<OPTION VALUE="FFFFFF" SELECTED>белый
+<OPTION VALUE="008000" SELECTED>зелёный
+<OPTION VALUE="ffc0cb" SELECTED>розовый
+<OPTION VALUE="8b00ff" SELECTED>фиолетовый
+</SELECT>
+</FORM>
+</li>
+
